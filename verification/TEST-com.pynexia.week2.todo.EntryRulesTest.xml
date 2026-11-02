@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pynexia.week2.todo.EntryRulesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:08:29" hostname="EYAD" time="0.016">
+  <properties/>
+  <testcase name="titleRejectsBlankAndOversizedInput" classname="com.pynexia.week2.todo.EntryRulesTest" time="0.011"/>
+  <testcase name="searchMatchesNameBodyAndEmailLiterally" classname="com.pynexia.week2.todo.EntryRulesTest" time="0.001"/>
+  <testcase name="optionalEmailStillChecksNonemptyAddresses" classname="com.pynexia.week2.todo.EntryRulesTest" time="0.001"/>
+  <testcase name="phoneAllowsFormattingButRejectsNonNumbers" classname="com.pynexia.week2.todo.EntryRulesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

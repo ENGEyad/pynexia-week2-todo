@@ -1,0 +1,11 @@
+Native Android To-Do List App implemented with Java and XML. Manage daily tasks with add, edit, delete and completion controls, a RecyclerView list, status filters and durable local SQLite storage.
+
+Each task has a required title, optional details and a stable ID. SQLite stores all fields. A custom ListAdapter binds each item and its actions. A checkbox persists the done flag and adds a strike-through title. All/Open/Done filters and literal text search can be combined. The count reports completed versus total tasks. Invalid titles show field errors. Delete requires confirmation. Background database work avoids blocking the UI; ViewModel retains in-flight editor saves.
+
+Run: open the source folder in Android Studio, sync Gradle, and run todo on Android 8.0/API 26 or later (compile/target SDK 35).
+
+Validation: 4 JVM tests and 4 device tests passed on a Pixel 8 emulator, Android 17/API 37. Lint: zero errors; 18 warnings documented without suppression.
+
+No reminders, due dates, notifications or cloud sync; these are outside the assignment. Clearing app data/uninstalling removes tasks. SQLite storage is not encrypted.
+
+Hosted URL: project showcase with actual screenshots and downloads, not a browser emulator. The ZIP contains source, Gradle wrapper, debug APK, screenshots, verification and a bilingual PDF report.

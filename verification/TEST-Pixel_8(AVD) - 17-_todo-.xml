@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pynexia.week2.todo.AppFlowTest" tests="4" failures="0" errors="0" skipped="0" time="20.236" timestamp="2026-11-02T00:11:39" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_8(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":todo" />
+  </properties>
+  <testcase name="completesAndFiltersTasksPersistently" classname="com.pynexia.week2.todo.AppFlowTest" time="5.794" />
+  <testcase name="createsEditsSearchesAndDeletes" classname="com.pynexia.week2.todo.AppFlowTest" time="10.15" />
+  <testcase name="preservesEditorDraftOnRecreation" classname="com.pynexia.week2.todo.AppFlowTest" time="2.369" />
+  <testcase name="crudPersistsAcrossReopenAndUsesStableIds" classname="com.pynexia.week2.todo.DatabaseTest" time="0.35" />
+</testsuite>

@@ -1,0 +1,8 @@
+{
+  "name": "To-Do List App",
+  "unit": 4,
+  "device": 4,
+  "lint_errors": 0,
+  "lint_warnings": 18,
+  "testing": "Validation and search, SQLite CRUD/reopen, UI add/edit/delete/cancel, editor recreation, completion persistence and All/Open/Done filtering."
+}
